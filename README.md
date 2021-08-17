@@ -32,6 +32,9 @@ realtime feedback and detailed failure messages upon deployment issues.
   and the job has auto-revert enabled; Levant tracks the resulting rollback deployment so you can
   see the exact outcome of the deployment process.
 
+- **HCL2 Support**: New Nomad features (cores, memory oversubscription etc) is supported.
+
+
 ## Download & Install
 
 - Levant can be installed via go toolkit using `go get github.com/hashicorp/levant && go install github.com/hashicorp/levant`
